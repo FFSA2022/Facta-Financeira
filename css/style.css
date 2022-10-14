@@ -262,13 +262,13 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000 !important;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   #gtco-header .text-left {
     text-align: center !important;
     display: contents;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   #gtco-header .btn {
     width: 90%;
     border-radius: 5px;
@@ -615,8 +615,10 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 10px;
 }
 #gtco-footer .gtco-footer-link {
-  padding-left: 30px;
+  align-items: center;
+  width: 100%;
 }
+
 @media screen and (max-width: 768px) {
   #gtco-footer .gtco-footer-link {
     padding-left: 15px;
@@ -626,9 +628,13 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   margin: 0;
 }
+.gtco-list-link{
+ display: flex;
+ justify-content: space-around;
+}
 #gtco-footer .gtco-footer-link .gtco-list-link li {
-  padding: 0;
-  margin: 0;
+  padding: 7px;
+  margin: 7px;
   list-style: none;
 }
 #gtco-footer .gtco-footer-link .gtco-list-link li a {
@@ -1904,7 +1910,13 @@ form label {
     align-items: center;
     height: max-content;
     padding-bottom: 3em;
+    flex-direction: column;
   }
+#h1footer{
+  width: 100%;
+  text-align: center;
+  font-size: x-large;
+}
 
   /*# sourceMappingURL=style.css.map */
- 0,
+ 
