@@ -631,7 +631,9 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-list-link{
  display: flex;
  justify-content: space-around;
+ flex-wrap: wrap;
 }
+
 #gtco-footer .gtco-footer-link .gtco-list-link li {
   padding: 7px;
   margin: 7px;
