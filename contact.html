@@ -1,8 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Cube by FreeHTML5.co
-	Twitter: http://twitter.com/gettemplateco
-	URL: http://freehtml5.co
+	
 -->
 <html>
 	<head>
@@ -12,7 +10,7 @@
 	<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	
+	<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -115,27 +113,31 @@
 						<form action="https://formsubmit.co/financeirafacta2001@gmail.com" method="POST">
 							<div class="form-group">
 								<label for="name">Name Completo</label>
-								<input type="text" name="nome" class="form-control" id="name" required>
+								<input type="text" name="nome" class="form-control" id="name" placeholder="ex: Nome Sobrenome" required>
 							</div>
 							<div class="form-group">
 								<label for="name">CPF</label>
-								<input type="number" name="CPF" class="form-control" id="name" required>
+								<input type="number" name="CPF" class="form-control" id="name" placeholder="ex: xxx.xxx.xxx-xx"required>
 							</div>
 							<div class="form-group">
 								<label for="name">Valor Do Emprestimo</label>
-								<input type="number" name="VLE" class="form-control" id="name" required>
+								<input type="number" name="VLE" class="form-control" id="number" min="3000" max="5000000" step="1000" placeholder="Valor do Emprestimo" required>
 							</div>
 							<div class="form-group">
 								<label for="name">Quantidades de Parcelas</label>
-								<input type="number" name="QTD-Parcelas" class="form-control" id="name" required>
+								<input type="number"  name="QTD-Parcelas" class="form-control" id="number" min="12" max="180" step="12" placeholder="Parcelas do Emprestimo" required>
+							</div>
+							<div class="form-group">
+								<label for="name">Cel com DDD</label>
+								<input type="tel"   name="whats" class="form-control" id="cel" pattern="[0-9]{2}[9]{1}[0-9]{8}"  placeholder="ex: (xx)9xxxx-xxxx"  required>
 							</div>
 							<div class="form-group">
 								<label for="name">Email</label>
-								<input type="text" name="email" class="form-control" id="email">
+								<input type="text" name="email" class="form-control" id="email" placeholder="Ex: seu_email@gmail.com">
 							</div>
 							<div class="form-group">
 								<label for="message"></label>
-								<textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+								<textarea name="" id="message" cols="30" rows="10" class="form-control" placeholder="Deixe sua menssagem"></textarea>
 							</div>
 							<div class="form-group">
 								<input type="submit" class="btn btn btn-special" value="Enviar Menssagem" >
@@ -144,8 +146,8 @@
 					</div>
 					<div class="col-md-5 col-md-push-1">
 						<div class="gtco-contact-info">
-							<h3>Our Address</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<h3>Facta Financeira</h3>
+							<p>Entre em contato conosco e faça sua simulação.</p>
 							<ul >
 								<li class="address"><a href="#">RUA DOS ANDRADAS, 1409 - 7º ANDAR</a></li>
 											<li class="phone"><a href="https://wa.me/5511959809265">+55(11)9.5980-9265</a></li>
